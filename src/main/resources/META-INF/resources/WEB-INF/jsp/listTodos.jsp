@@ -30,14 +30,14 @@
                             <td>${todo.description}</td>
                             <td>${todo.targetDate}</td>
                             <td>${todo.done}</td>
-                            <td> <a href="delete-todo?id=${todo.id}" class="btn btn-warning">Delete</a>   </td>
-                            <td> <a href="update-todo?id=${todo.id}" class="btn btn-success">Update</a>   </td>
+                            <td> <a href="delete-todo?id=${todo.id}">Delete</a>   </td>
+                            <td> <a href="update-todo?id=${todo.id}">Update</a>   </td>
                         </tr>
                     </c:forEach>
                 </tbody>
             </table>
         </div>
 
-        <a href="add-todos" class="btn btn-success">Add Todo</a>
+        <a href="add-todo">Add Todo</a>
 	</body>
 </html>

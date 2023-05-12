@@ -11,6 +11,7 @@
 				 Description:<form:input type="text" path="description" required="required"/>
 				 <form:errors path="description"/>
                  <form:input type="hidden" path="id"/>
+                 <form:input type="hidden" path="targetDate"/>
                  <form:input type="hidden" path="done"/>
 				<input type="submit">
 			</form:form>
