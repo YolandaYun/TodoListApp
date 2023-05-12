@@ -11,11 +11,11 @@ public class TodoService {
     private static List<Todo> todos = new ArrayList<>();
 
     static {
-        todos.add(new Todo("in28minutes","Learn AWS",
+        todos.add(new Todo("userA","walk mingye and clean poop",
                 LocalDate.now().plusYears(1), false ));
-        todos.add(new Todo("in28minutes","Learn DevOps",
+        todos.add(new Todo("userA","listen to the birds sing",
                 LocalDate.now().plusYears(2), false ));
-        todos.add(new Todo("in28minutes","Learn Full Stack Development",
+        todos.add(new Todo("userA","visit John at sesame street 10:00",
                 LocalDate.now().plusYears(3), false ));
     }
 
