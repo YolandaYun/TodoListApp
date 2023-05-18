@@ -1,0 +1,9 @@
+<nav>
+    <div>
+        <ul>
+            <li><a class="home" href="/welcome"><h3>Home</h3></a></li>
+            <li><a class="todos" href="/list-todos"><h3>Todos</h3></a></li>
+            <li><a class="logout" href="/logout"><h3>Logout</h3></a></li>
+        </ul>
+    </div>
+</nav>

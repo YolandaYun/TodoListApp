@@ -5,6 +5,7 @@
 		<title>Login Page</title>
 	</head>
 	<body>
+        <%@ include file="common/navigation.jspf" %>
 
 		<div>
 		    <h2>Nice to see you, ${name}</h2>
